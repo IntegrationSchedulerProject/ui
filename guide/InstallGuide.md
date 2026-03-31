@@ -44,7 +44,7 @@ cd /c/src/android-sdk/cmdline-tools/latest/bin
 # - platforms: 안드로이드 OS 버전
 ./sdkmanager.bat --sdk_root="C:/src/android-sdk" "platform-tools" "build-tools;34.0.0" "platforms;android-34"
 ```
-> **오류 시 버전 변경 필요**
+> [!WARNING] **오류 시 버전 변경 필요**
 
 ### 4.  Flutter와 Android SDK 연결
 ```bash
