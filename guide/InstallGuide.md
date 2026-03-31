@@ -57,8 +57,7 @@ flutter config --jdk-dir "C:/src/jdk-21"
   2. 환경 변수 버튼 클릭
   3. 시스템 변수 섹션에 Path 편집 (java, SDK, flutter)
   4. Flutter\bin 경로 입력 (예시 : C:\src\flutter\bin)
-  5. 경로 확인
-    Git Bash 사용 시 Bash 재시작
+  5. 경로 확인 (Git Bash 사용 시 Bash 재시작)
 ```
 which flutter
 flutter --version
