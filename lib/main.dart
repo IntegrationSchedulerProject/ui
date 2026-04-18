@@ -51,7 +51,7 @@ class MyApp extends StatelessWidget {
   }
 }
 
-class testPage extends StatelessWidget{
+class TestPage extends StatelessWidget{
   const TestPage({super.key});
 
   @override
