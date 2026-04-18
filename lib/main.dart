@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'CloneKeep',
+      title: 'Toy Project',
       theme: ThemeData(
         // This is the theme of your application.
         //
@@ -30,7 +30,31 @@ class MyApp extends StatelessWidget {
         // tested with just a hot reload.
         colorScheme: .fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: const MyHomePage(title: 'Toy Project Home Page'),
+      // home: const MyHomePage(title: 'Flutter Demo Home Page'),
+      home: const TestPage(title: 'Toy Project Home Page'),
+    );
+  }
+}
+
+class testPage extends StatelessWidget{
+  const TestPage({super.key});
+
+  @override
+  Widget build(BuildContext context){
+    return Scaffold(
+      appBar: AppBar(
+        title: const Text('CloneKeep'),
+        centerTitle: true,
+      ),
+      body: const Center(
+        child: Text('Body Area'),
+      ),
+      floatingActionButton: FloatingActionButton(
+        onPressed: () {
+          // 버튼 클릭 시 동작할 내용
+        },
+        child: const Icon(Icons.add),
+      ),
     );
   }
 }
