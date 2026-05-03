@@ -63881,7 +63881,7 @@ s($,"auE","agS",()=>new A.VQ(A.bK("/",!0,!1),A.bK("[^/]$",!0,!1),A.bK("^/",!0,!1
 s($,"auG","L0",()=>new A.a_H(A.bK("[/\\\\]",!0,!1),A.bK("[^/\\\\]$",!0,!1),A.bK("^(\\\\\\\\[^\\\\]+\\\\[^\\\\/]+|[a-zA-Z]:[/\\\\])",!0,!1),A.bK("^[/\\\\](?![/\\\\])",!0,!1)))
 s($,"auF","y4",()=>new A.a_p(A.bK("/",!0,!1),A.bK("(^[a-zA-Z][-+.a-zA-Z\\d]*://|[^/])$",!0,!1),A.bK("[a-zA-Z][-+.a-zA-Z\\d]*://[^/]*",!0,!1),A.bK("^/",!0,!1)))
 s($,"auD","a9Z",()=>A.anz())
-s($,"asC","afX",()=>{var q="application/json",p=A.aj_("http://35.212.205.157:8080",B.yk,A.aF(["Content-Type",q,"Accept",q],t.N,t.z),B.yg),o=A.a5V(),n=new A.Ay(A.d([B.vX],A.ab("t<eM?>")))
+s($,"asC","afX",()=>{var q="application/json",p=A.aj_("https://integrationschedulerproject.github.io",B.yk,A.aF(["Content-Type",q,"Accept",q],t.N,t.z),B.yg),o=A.a5V(),n=new A.Ay(A.d([B.vX],A.ab("t<eM?>")))
 n.I(n,B.Au)
 n=new A.Ns(o,n,A.a5V(),new A.PH(51200),!1)
 n.ls$=p
