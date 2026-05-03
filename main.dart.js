@@ -58901,7 +58901,7 @@ P(a){return new A.rQ(B.GI,"ClonKeep",A.a8x(null,null,!0),null)}}
 A.DC.prototype={
 ox(){var s=0,r=A.P(t.N),q,p,o,n
 var $async$ox=A.Q(function(a,b){if(a===1)return A.M(b,r)
-for(;;)switch(s){case 0:A.afH("\ub514\ubc84\uae45 - \ud604\uc7ac \uc124\uc815\ub41c API \uc8fc\uc18c: https://integrationschedulerproject.github.io")
+for(;;)switch(s){case 0:A.afH("\ub514\ubc84\uae45 - \ud604\uc7ac \uc124\uc815\ub41c API \uc8fc\uc18c: http://35.212.205.157:8080")
 p=$.afY()
 o=A.alY()
 o.a="GET"
@@ -63882,7 +63882,7 @@ s($,"auE","agT",()=>new A.VQ(A.bK("/",!0,!1),A.bK("[^/]$",!0,!1),A.bK("^/",!0,!1
 s($,"auG","L0",()=>new A.a_H(A.bK("[/\\\\]",!0,!1),A.bK("[^/\\\\]$",!0,!1),A.bK("^(\\\\\\\\[^\\\\]+\\\\[^\\\\/]+|[a-zA-Z]:[/\\\\])",!0,!1),A.bK("^[/\\\\](?![/\\\\])",!0,!1)))
 s($,"auF","y4",()=>new A.a_p(A.bK("/",!0,!1),A.bK("(^[a-zA-Z][-+.a-zA-Z\\d]*://|[^/])$",!0,!1),A.bK("[a-zA-Z][-+.a-zA-Z\\d]*://[^/]*",!0,!1),A.bK("^/",!0,!1)))
 s($,"auD","a9Z",()=>A.anA())
-s($,"asC","afY",()=>{var q="application/json",p=A.aj0("https://integrationschedulerproject.github.io",B.yk,A.aF(["Content-Type",q,"Accept",q],t.N,t.z),B.yg),o=A.a5V(),n=new A.Ay(A.d([B.vX],A.ab("t<eM?>")))
+s($,"asC","afY",()=>{var q="application/json",p=A.aj0("http://35.212.205.157:8080",B.yk,A.aF(["Content-Type",q,"Accept",q],t.N,t.z),B.yg),o=A.a5V(),n=new A.Ay(A.d([B.vX],A.ab("t<eM?>")))
 n.I(n,B.Au)
 n=new A.Ns(o,n,A.a5V(),new A.PH(51200),!1)
 n.ls$=p
