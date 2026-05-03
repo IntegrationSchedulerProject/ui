@@ -9,8 +9,7 @@ jobs:
       - uses: actions/checkout@v4
       - uses: subosito/flutter-action@v2 # 플러터 환경 설치
       
-      - run: flutter build web --release \
-          --base-href "/${{ github.event.repository.name }}/" --dart-define=API_URL=${{ secrets.ORG_API_URL }} # 빌드할 frontEnd_URL 및 API_URL Secret 추가
+      - run: flutter build web --release --base-href "/${{ github.event.repository.name }}/" --dart-define=API_URL=${{ secrets.ORG_API_URL }} # 빌드할 frontEnd_URL 및 API_URL Secret 추가
       
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3 # gh-pages 브랜치로 전송
