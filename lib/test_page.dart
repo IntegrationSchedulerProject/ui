@@ -5,6 +5,9 @@ class TestPage extends StatelessWidget {
   const TestPage({super.key});
 
   Future<String> getServerData() async {
+    const url = String.fromEnvironment('API_URL');
+    print("디버깅 - 현재 설정된 API 주소: $url");
+
     final response = await ApiClient.instance.get('/test-contents');
     return response.data.toString();
   }
